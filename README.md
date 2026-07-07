@@ -39,19 +39,6 @@ This repository contains essential Java core concepts with clear explanations an
 * Synchronization basics
 
 ---
-📂 Project Structure
-java-oops-concepts/
-│
-├── 01-Encapsulation/
-├── 02-Inheritance/
-├── 03-Polymorphism/
-├── 04-Abstraction/
-
-Each folder contains:
-
-Explanation (README.md)
-Java examples
----
 
 ## 🎯 Purpose
 
