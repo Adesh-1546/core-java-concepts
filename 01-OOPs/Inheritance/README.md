@@ -2,7 +2,7 @@
 
 Inheritance is a mechanism in Java where one class (child/subclass) acquires the properties and behavior of another class (parent/superclass).
 
-It helps in code reusability and establishes a relationship between classes.
+It helps in code reusability and establishes IS-A-relationship between classes.
 
 ---
 
@@ -11,7 +11,7 @@ It helps in code reusability and establishes a relationship between classes.
 * Parent class → Superclass
 * Child class → Subclass
 * Achieved using the `extends` keyword
-* Child class can access public and protected members of parent class
+* Child class can access public and protected members of the parent class
 
 ---
 
@@ -28,7 +28,7 @@ It helps in code reusability and establishes a relationship between classes.
 
 Animal → Dog
 
-A dog inherits common properties like eating and sleeping from Animal, and also has its own behavior like barking.
+A dog inherits common properties like eating and sleeping from Animal and can also have its own specific behavior like barking.
 
 ---
 
@@ -38,45 +38,11 @@ A dog inherits common properties like eating and sleeping from Animal, and also 
 
 One child class inherits from one parent class.
 
-```java id="d8g1vf"
-class Animal {
-    void eat() {
-        System.out.println("Animal eats");
-    }
-}
-
-class Dog extends Animal {
-    void bark() {
-        System.out.println("Dog barks");
-    }
-}
-```
-
 ---
 
 ### 2. Multilevel Inheritance
 
-A class inherits from a class, which itself inherits from another class.
-
-```java id="1x0p4l"
-class Animal {
-    void eat() {
-        System.out.println("Animal eats");
-    }
-}
-
-class Dog extends Animal {
-    void bark() {
-        System.out.println("Dog barks");
-    }
-}
-
-class Puppy extends Dog {
-    void weep() {
-        System.out.println("Puppy weeps");
-    }
-}
-```
+A class inherits from a parent class, and another class further inherits from that child class.
 
 ---
 
@@ -84,32 +50,12 @@ class Puppy extends Dog {
 
 Multiple child classes inherit from a single parent class.
 
-```java id="nqk4jh"
-class Animal {
-    void eat() {
-        System.out.println("Animal eats");
-    }
-}
-
-class Dog extends Animal {
-    void bark() {
-        System.out.println("Dog barks");
-    }
-}
-
-class Cat extends Animal {
-    void meow() {
-        System.out.println("Cat meows");
-    }
-}
-```
-
 ---
 
 ## ⚠️ Note
 
 Java does NOT support multiple inheritance using classes to avoid ambiguity (diamond problem).
-However, it can be achieved using interfaces.
+However, multiple inheritance can be achieved using interfaces.
 
 ---
 
@@ -125,4 +71,3 @@ However, it can be achieved using interfaces.
 ## 🚀 Summary
 
 Inheritance allows classes to reuse existing code and build relationships between them. It is widely used in real-world applications to create scalable and maintainable systems.
-
