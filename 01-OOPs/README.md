@@ -1,34 +1,34 @@
-# Object-Oriented Programming (OOP)
+# 🧩 Object-Oriented Programming (OOP)
 
 OOP is a programming paradigm based on objects and classes. It helps in writing modular, reusable, and maintainable code.
 
-## Core Concepts
+## 🔑 Core Concepts
 
-### 1. Encapsulation
+### 1️⃣ 🔒 Encapsulation
 
 Wrapping data and methods into a single unit and restricting access using private variables and public methods.
 
-### 2. Inheritance
+### 2️⃣ 🧬 Inheritance
 
 Allows one class to acquire properties and behavior of another class.
 
-### 3. Polymorphism
+### 3️⃣ 🔄 Polymorphism
 
 Ability of a method to perform different tasks based on context.
 
 * Method Overloading (Compile-time)
 * Method Overriding (Runtime)
 
-### 4. Abstraction
+### 4️⃣ 🎭 Abstraction
 
 Hiding implementation details and showing only essential features.
 
 * Achieved using abstract classes and interfaces
 
-## Why OOP?
+## 🚀 Why OOP?
 
-* Code reusability
-* Better structure
-* Easy maintenance
-* Real-world modeling
+* ♻️ Code reusability
+* 🏗️ Better structure
+* 🔧 Easy maintenance
+* 🌍 Real-world modeling
 
