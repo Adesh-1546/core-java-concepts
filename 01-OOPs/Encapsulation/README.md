@@ -97,7 +97,3 @@ Encapsulation helps in building **secure, modular, and maintainable applications
 
 ---
 
-## 👨‍💻 Author
-
-Adesh Pol
-
