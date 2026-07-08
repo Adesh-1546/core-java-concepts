@@ -25,7 +25,7 @@ It typically follows the FIFO (First In First Out) principle.
 
 ---
 
-### 2. ArrayDeque (Recommended)
+### 2. ArrayDeque 
 
 * Faster than Stack and LinkedList
 * Can be used as Queue or Stack
