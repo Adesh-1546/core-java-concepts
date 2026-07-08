@@ -15,9 +15,9 @@ This repository contains essential Java core concepts with clear explanations an
 
 ### 2. Collections Framework
 
-* List (ArrayList, LinkedList)
-* Set (HashSet)
-* Map (HashMap)
+* List 
+* Set 
+* Map 
 
 ### 3. Exception Handling
 
