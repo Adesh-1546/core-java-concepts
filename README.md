@@ -32,7 +32,7 @@ This repository contains essential Java core concepts with clear explanations an
 * Important methods
 * Immutability
 
-### 5. Multithreading (Optional)
+### 5. Multithreading 
 
 * Thread creation
 * Runnable interface
