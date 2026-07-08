@@ -20,15 +20,38 @@ Dog IS-A Animal
 
 ## 🔹 HAS-A Relationship (Composition)
 
-HAS-A represents composition.
+HAS-A represents a relationship where one class contains another class.
 
-* One class contains another class
 * Achieved using object reference
 * Promotes code reuse and flexibility
 
-### Example
+---
 
-Car HAS-A Engine
+## 🔸 Types of HAS-A Relationship
+
+### 1. Composition (Strong Association)
+
+* Strong relationship
+* Dependent objects (child cannot exist without parent)
+* If parent is destroyed → child is also destroyed
+
+#### Example:
+
+House HAS-A Room
+If House is destroyed → Rooms also destroyed
+
+---
+
+### 2. Aggregation (Weak Association)
+
+* Weak relationship
+* Independent objects
+* Child can exist without parent
+
+#### Example:
+
+College HAS-A Student
+If College is closed → Students still exist
 
 ---
 
@@ -43,10 +66,22 @@ Car HAS-A Engine
 
 ---
 
+## ⚖️ Composition vs Aggregation
+
+| Feature    | Composition    | Aggregation        |
+| ---------- | -------------- | ------------------ |
+| Strength   | Strong         | Weak               |
+| Dependency | Dependent      | Independent        |
+| Lifecycle  | Same lifecycle | Separate lifecycle |
+
+---
+
 ## 💡 When to Use
 
 * Use IS-A → when there is a clear parent-child relationship
-* Use HAS-A → when functionality is required without inheritance
+* Use HAS-A → when functionality is needed without inheritance
+* Use Composition → when objects are tightly related
+* Use Aggregation → when objects are loosely related
 
 ---
 
@@ -54,7 +89,8 @@ Car HAS-A Engine
 
 * Dog IS-A Animal
 * Car HAS-A Engine
-* Student HAS-A Address
+* House HAS-A Room (Composition)
+* College HAS-A Student (Aggregation)
 
 ---
 
@@ -72,7 +108,20 @@ Composition where one class contains another.
 
 ---
 
-### 3. Which is better: IS-A or HAS-A?
+### 3. What are types of HAS-A?
+
+* Composition
+* Aggregation
+
+---
+
+### 4. Difference between Composition and Aggregation?
+
+Composition is strong dependency, aggregation is weak.
+
+---
+
+### 5. Which is better: IS-A or HAS-A?
 
 HAS-A is preferred for flexibility and loose coupling.
 
@@ -80,4 +129,4 @@ HAS-A is preferred for flexibility and loose coupling.
 
 ## 🚀 Summary
 
-IS-A represents inheritance, while HAS-A represents composition. Both are important for designing flexible and reusable systems.
+IS-A represents inheritance, while HAS-A represents composition and aggregation. These relationships help design flexible and reusable systems.
