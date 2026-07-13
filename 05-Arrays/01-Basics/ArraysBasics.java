@@ -5,10 +5,10 @@ public class ArraysBasics {
 
     public static void main(String[] args) {
 
-        // 🔹 1. Declaration
+        //  1. Declaration
         int[] arr1;
 
-        // 🔹 2. Static Initialization (values given directly)
+        //  2. Static Initialization (values given directly)
         int[] arr2 = {10, 20, 30, 40, 50};
 
         System.out.println("Static Array:");
@@ -18,7 +18,7 @@ public class ArraysBasics {
 
         System.out.println();
 
-        // 🔹 3. Dynamic Initialization (size given, values assigned later)
+        //  3. Dynamic Initialization (size given, values assigned later)
         int[] arr3 = new int[5];
 
         arr3[0] = 100;
@@ -34,7 +34,7 @@ public class ArraysBasics {
 
         System.out.println();
 
-        // 🔹 4. Default Values
+        //  4. Default Values
         int[] arr4 = new int[3];
         System.out.println("Default values:");
         for (int i = 0; i < arr4.length; i++) {
