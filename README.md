@@ -47,7 +47,7 @@ This repository contains essential Java core concepts with clear explanations an
 * Custom exceptions
 * Try-with-resources
 
-
+---
 
 ### 4. Arrays
 
